@@ -13,22 +13,11 @@ This project analyzes real-world hotel booking data to uncover trends in booking
 
 ---
 
-## Tools Used
-- Microsoft SQL Server
-- Tableau Public
-- Excel (for light preprocessing)
-
----
-
-## Key SQL Analysis
-- Join between `hotel_bookings` and `hotel_customers` tables
-- Use of CTE and temp tables for modular queries
-- Cancellation rate by customer type  
-- Estimated revenue: `adr * (weeknight + weekend nights)`
-- Repeat guest insights (via joined customer table)
-- Booking trend by month
-
-> ✔️ All queries are available in the `SQL Queries` folder
+## Key Business Insights
+- Resort hotels have longer average stays.
+- Group-type bookings have the lowest cancellation rate.
+- Most bookings are made through Online Travel Agents.
+- Highest demand is during July and August.
 
 ---
 
@@ -45,28 +34,15 @@ The dashboard includes:
 
 ---
 
-## Key Business Insights
-- Resort hotels have longer average stays.
-- Group-type bookings have the lowest cancellation rate.
-- Most bookings are made through Online Travel Agents.
-- Highest demand is during July and August.
+## Key SQL Analysis
+- Join between `hotel_bookings` and `hotel_customers` tables
+- Use of CTE and temp tables for modular queries
+- Cancellation rate by customer type  
+- Estimated revenue: `adr * (weeknight + weekend nights)`
+- Repeat guest insights (via joined customer table)
+- Booking trend by month
 
----
-
-## Project Structure
-
-Hotel Booking Demand/
-│
-├── README.md
-├── SQL Queries/
-│ └── hotel_booking_analysis.sql
-├── Tableau Dashboard/
-│ └── Hotel Booking Dashboard.twbx
-├── Dataset/
-│ └── hotel_bookings.csv
-│ └── hotel_customers.csv
-├── Image/
-│ └── Hotel Booking Dashboard.png
+> ✔️ All queries are available in the `SQL Queries` folder
 
 ---
 
