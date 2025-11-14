@@ -1,6 +1,6 @@
-# Hotel Booking Demand Analysis (SQL + Tableau)
+# Hotel Booking Demand Analysis
 
-This project analyzes real-world hotel booking data using Microsoft SQL Server for querying and Tableau for visualization. The goal is to uncover trends in bookings, cancellations, guest behavior, and estimated revenue — helping stakeholders in the hotel industry make data-informed decisions.
+This project analyzes real-world hotel booking data to uncover trends in bookings, cancellations, guest behavior, and estimated revenue — helping stakeholders in the hotel industry make data-informed decisions.
 
 ---
 
