@@ -4,7 +4,6 @@
 
 This project analyzes real-world hotel booking data to uncover trends in bookings, cancellations, guest behavior, and estimated revenue — helping stakeholders in the hotel industry make data-informed decisions.
 
----
 
 ## Objectives
 - Analyze cancellation rates across customer types and distribution channels.
@@ -13,7 +12,6 @@ This project analyzes real-world hotel booking data to uncover trends in booking
 - Visualize seasonal booking trends.
 - Demonstrate ability to use SQL and Tableau for end-to-end BI analysis.
 
----
 
 ## Key Business Insights
 - Resort hotels have longer average stays.
@@ -21,7 +19,6 @@ This project analyzes real-world hotel booking data to uncover trends in booking
 - Most bookings are made through Online Travel Agents.
 - Highest demand is during July and August.
 
----
 
 ## Tableau Dashboard
 The dashboard includes:
@@ -34,7 +31,6 @@ The dashboard includes:
 
 🔗 Link to Tableau Public Dashboard : https://public.tableau.com/views/HotelBookingDashboard_17532586984380/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
----
 
 ## Key SQL Analysis
 - Join between `hotel_bookings` and `hotel_customers` tables
@@ -46,7 +42,6 @@ The dashboard includes:
 
 > ✔️ All queries are available in the `SQL Queries` folder
 
----
 
 ## 📬 Contact
 **Muhamad Rabbani**  
