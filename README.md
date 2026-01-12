@@ -1,43 +1,53 @@
-# Hotel Booking Demand Analysis
+Hotel Booking Demand Analysis
+---
+Executive Summary
 
-## Overview
+This project analyzes hotel booking data to support commercial and operational decision-making in the hospitality industry. Using SQL for analytical modeling and Tableau for visualization, I transformed raw booking records into clear, decision-focused insights related to demand patterns, revenue drivers, and cancellation risk.
+***
+Project Objectives
+- Quantify booking demand patterns to support seasonal pricing and capacity planning.
+- Identify revenue-driving market segments and assess their relative business value.
+- Evaluate cancellation risk across distribution channels to inform overbooking and channel strategy.
+***
+Business Questions Addressed
 
-This project analyzes real-world hotel booking data to uncover trends in bookings, cancellations, guest behavior, and estimated revenue — helping stakeholders in the hotel industry make data-informed decisions.
+1️⃣ When does booking demand peak and decline throughout the year?
+> How should pricing, staffing, and inventory adjust seasonally?
 
+2️⃣ Which market segments contribute the most revenue?
+> Where should distribution and marketing efforts be prioritized?
 
-## Objectives
-- Analyze cancellation rates across customer types and distribution channels.
-- Compare booking behavior between City Hotel and Resort Hotel.
-- Estimate revenue by market segment.
-- Visualize seasonal booking trends.
-- Demonstrate ability to use SQL and Tableau for end-to-end BI analysis.
+3️⃣ Which countries generate the highest booking volume?
+> Where should regional marketing be strengthened?
 
+4️⃣ Which distribution channels carry the highest cancellation risk?
+> How can revenue leakage be reduced through channel strategy?
+***
+Dashboard Overview
 
-## Key Business Insights
-- Resort hotels have longer average stays.
-- Group-type bookings have the lowest cancellation rate.
-- Most bookings are made through Online Travel Agents.
-- Highest demand is during July and August.
+1️⃣ Booking Demand Patterns Across the Year
+> Clear seasonal pattern supports dynamic pricing and workforce planning
 
+2️⃣ Revenue Contribution by Market Segment
+> Insight supports channel mix optimization and cost-benefit analysis
 
-## Tableau Dashboard
-The dashboard includes:
-- Monthly booking trends
-- Top 5 countries by bookings
-- Cancellation rate by customer type
-- Revenue distribution by market segment
+3️⃣ Top Booking Source Markets by Country
+> Enables geographic prioritization for marketing and partnerships
 
- Screenshots available in `Image` folder
+4️⃣ Cancellation Behavior Across Distribution Channels
+> Insight supports overbooking policies and channel-level restrictions
 
-🔗 Link to Tableau Public Dashboard : https://public.tableau.com/views/HotelBookingDashboard_17532586984380/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<img width="1399" height="899" alt="Hotel_Booking" src="https://github.com/user-attachments/assets/6a4477dc-58ad-4597-925d-1338301aa104" />
 
+***
+Key Business Insights
+- Booking demand peaks during summer months, indicating strong seasonality.
+- Online Travel Agents contribute the largest share of revenue, approximately $13,714K, but also exhibit the highest cancellation rate at 41.03%, presenting a trade-off between volume and reliability.
+- Direct bookings represent a smaller share of total volume but maintain a lower cancellation rate (17.46%), making them a more stable revenue channel.
+- Booking volume is concentrated in the top five EU countries, highlighting both market dependency and growth opportunities.
+***
+Tools & Technologies
+- Microsoft SQL Server — analytical queries, KPI logic, data modeling
+- Excel — light preprocessing and validation
+- Tableau — dashboarding, storytelling, stakeholder-ready visuals
 
-## Key SQL Analysis
-- Join between `hotel_bookings` and `hotel_customers` tables
-- Use of CTE and temp tables for modular queries
-- Cancellation rate by customer type  
-- Estimated revenue: `adr * (weeknight + weekend nights)`
-- Repeat guest insights (via joined customer table)
-- Booking trend by month
-
-> ✔️ All queries are available in the `SQL Queries` folder
